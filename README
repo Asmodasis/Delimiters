@@ -1,0 +1,29 @@
+
+
+Hello, and thank you for reading this Readme file 
+
+
+The file directories are set up as follows
+
+src -- where the source files go, class implementations and exercises are found here, postfix and delimiters are here
+
+headers -- headers for the abstractions, class declarations are here.
+
+build -- object files, executables, makefile and shells.
+
+Documenation -- the log files and pictures of the exercises
+
+
+A class implementation has been designed for both StackArray and StackLinked they will be found within src, with showStructure copied from show6.cpp, Credit to Dr. Kostas Alexis retrieval date applied.
+
+config.h was modified to run StackLinked
+
+a shell file was included to show postfix.cpp being able to work, it can be run from the command line OR user interaction -- mode decided by amount of argument counter 
+
+Makefile will be found in build directory, and it was designed to make all of the objects and exe files for each exercise, the application of which is not optimal and shall be improved upon.
+possible known issues with makefile -- old objects at somepoint were not being removed properly on make, make clean command was required to remedy; fix may have been done but it lacked testing to confirm.
+
+
+    DATE: 2018-10-04
+    AUTHOR: Shawn Ray
+    
